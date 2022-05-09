@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: .2s linear;
+}
+
+.first_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #fff;
+
+}
+
+.main_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.Qr{
+    height: 9rem;
+    margin-bottom: 20px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btnLer{
+    border: none;
+    outline: none;
+    padding: 15px 60px;
+    cursor: pointer;
+    background: #35187f;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.dados{
+    margin: 5%;
+}
+
+.dados h1{
+    color: #35187f;
+    text-align: justify;
+}
+
+.dados h2{
+    font-size: 1rem;
+}
+
+.dados p{
+    border: 1px solid #35187f;
+    border-radius: 5px;
+    padding: 15px 60px;
+    color: #35187f;
+    margin-top: 5px;
+}
+
+.dados .imagens{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dados img{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 20rem;
+}
