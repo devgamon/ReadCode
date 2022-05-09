@@ -50,7 +50,7 @@ window.onload = ()=>{
                         <p>Memória interna 64 GB Total sendo uma parte usada para o sistema operacional e aplicativos
                         pré-instalados</p>
                         <p>Cor Branco</p>
-                        <h3>Características Gerais: </h3>
+                        <h3>Características Gerais: </h3> 
                         <p>- Tela Max Vision e design ao máximo</p>
                         <p>- Câmera dupla e armazenamento ilimitado</p>
                         <p>- Android One: primeiro do Brasil, atualizado e seguro</p>
@@ -60,9 +60,9 @@ window.onload = ()=>{
                     `;
                 }else if (result.text == "85369877444"){
                     document.querySelector("#dados").innerHTML =                     `
-                        <h1>Produto:</h1>
+                        <h1>Produto:</h1> <br>
                         <h2>Nome do Produto: Asus Zenfone Max Pro M1</h2>
-                        <img src="/img/Imagem4.jpg">
+                        <div class="imagens"><img src="/img/Imagem4.jpg"></div>
                         <p>Valor: R$ 1.199,00</p>
                         <p>Processador: Qualcomm Snapdragon SDM636 1,8 GHz, 2 Mb Cache</p>
                         <p>Sistema Operacional: Android 8.1 Oreo</p>
