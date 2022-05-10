@@ -75,3 +75,19 @@
     margin-bottom: 50px;
     height: 20rem;
 }
+
+.dados .div_content{
+    border: 1px solid #35187f;
+    border-radius: 5px;
+    color: #35187f;
+    margin-top: 5px;
+}
+
+.dados .div_content .cont{
+    border: none;
+}
+
+#tittle{
+    margin-top: 20px;
+    margin-left: 20px;
+}

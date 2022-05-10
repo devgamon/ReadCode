@@ -49,14 +49,16 @@ window.onload = ()=>{
                         <p>Tecnologia GSM, 3G e 4G</p>
                         <p>Memória interna 64 GB Total sendo uma parte usada para o sistema operacional e aplicativos
                         pré-instalados</p>
-                        <p>Cor Branco</p>
-                        <h3>Características Gerais: </h3> 
-                        <p>- Tela Max Vision e design ao máximo</p>
-                        <p>- Câmera dupla e armazenamento ilimitado</p>
-                        <p>- Android One: primeiro do Brasil, atualizado e seguro</p>
-                        <p>- Carregamento ultrarrápido TurboPower</p>
-                        <p>- Últimas inovações do Google incorporadas</p>
-                        <p>- Leitor Biométrico (Impressão Digital)</p>
+                        <p>Cor Branco</p> <br>
+                        <div class="div_content">
+                        <h3 id="tittle">Características Gerais: </h3> 
+                        <p class="cont">- Tela Max Vision e design ao máximo</p>
+                        <p class="cont">- Câmera dupla e armazenamento ilimitado</p>
+                        <p class="cont">- Android One: primeiro do Brasil, atualizado e seguro</p>
+                        <p class="cont">- Carregamento ultrarrápido TurboPower</p>
+                        <p class="cont">- Últimas inovações do Google incorporadas</p>
+                        <p class="cont">- Leitor Biométrico (Impressão Digital)</p>
+                        </div>
                     `;
                 }else if (result.text == "85369877444"){
                     document.querySelector("#dados").innerHTML =                     `
